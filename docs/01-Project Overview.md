@@ -8,17 +8,15 @@ Windows Server	Domain Controller
 Ubuntu Server	osTicket Server
 Windows 11	Client Workstation
 Network Layout
-Internet
-     │
-VirtualBox NAT
-     │
+       Internet
+          │
+     VirtualBox NAT
+          │
 
-Internal Network
-HelpDeskLab
-
-     │
- ├──────────────┐
- │              │
-DC01       OSTICKET
- │              │
- └────CLIENT01──┘
+    Internal Network
+     HelpDeskLab
+          |
+    │              │
+   DC01       OSTICKET
+    │              │
+    └────CLIENT01──┘
