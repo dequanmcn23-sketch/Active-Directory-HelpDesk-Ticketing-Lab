@@ -3,7 +3,7 @@ Step 1: Open Sql
 - This is a dedicated MySQL database and user were created for osTicket instead of using the root account.
 
 Command: 
-audo mysql
+sudo mysql
 
 Run:
 ---------
